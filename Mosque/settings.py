@@ -30,11 +30,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jkab=_&yonk43$=cz&!!kaf24mw93m%l#bys82eo)c9t@k(ekq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 
-ALLOWED_HOSTS = ['issb.herokuapp.com']
+ALLOWED_HOSTS = ['isspmosque.herokuapp.com']
 
 
 # Application definition
